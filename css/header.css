@@ -1,0 +1,82 @@
+h1{
+    font-size: 20px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    height: 50px;
+   
+    
+    
+}
+.side nav ul{
+    display: flex;
+    gap: 40px;
+
+}
+.side nav ul li{
+    list-style: none;
+}
+.side nav ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.image-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+}
+
+.image-button:hover {
+    background-color: rgba(0, 89, 255, 0.36);
+}
+.image-button2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+}
+.image-button2:hover {
+    background-color: rgb

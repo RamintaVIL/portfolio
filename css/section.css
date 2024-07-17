@@ -1,0 +1,138 @@
+.frontEndDeveloper{
+    /* background-color: aqua; */
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   /* margin: 50px; */
+   width: 100%;
+   
+   margin-bottom: 100px;
+   
+}
+h4{
+   
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 100;
+   margin-top: 10px;
+   
+}
+
+.introContainer{
+   width: calc(100% - 1000px);
+   
+  /* background-color: beige; */
+  /* margin-right: 200px; */
+  
+}
+.introName{
+   padding: 20px;
+   font-size: 14px;
+}
+.introDev{
+   font-size: 20px;
+   padding: 20px;
+}
+.introPara{
+   padding: 20px;
+   font-size: 13px;
+
+}
+.contactBtn{
+   padding: 10px 25px;
+   margin-left:20px;
+   border-radius: 30px;
+   background-color: white;
+   border: none;
+   color: black;
+   cursor: pointer;
+   font-size: 10px;
+}
+.contactBtn:hover{
+   background-color: black;
+   color: white;
+}
+.introPhoto{
+   margin-left: 10%;
+   /* background-color: aquamarine; */
+   
+}
+.introName2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+main {
+   padding: 10px;
+}
+
+.photos {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 50px 20px;
+   padding: 50px 120px ;
+   margin-left: 100px ; 
+   /* background-color: green; */
+}
+
+.photo-item {
+   flex: 1 1 calc(50% - 20px);
+   background: #fff;
+   padding: 10px;
+   margin: 10px 0;
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.photo-item img {
+   max-width: 100%;
+   border-radius: 5px;
+}
+
+.tags {
+   margin-top: 10px;
+}
+
+section div a {
+   display: inline-block;
+   margin-right: 5px;
+   margin-top: 10px;
+   padding: 5px 20px;
+   border: 1px solid white;
+   color: #fff;
+   text-decoration: none;
+   border-radius: 10px;
+   font-size: 10px;
+   
+}
+.contact{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 10px;
+   gap: 17px;
+}
+
+.socialMedia{
+   display: flex;
+   /* align-items: center; */
+   gap: 50px;
+   margin-right: 50px;
+   /* margin-left: 1000px; */
+}
+.footerMain{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 100px;
+   padding: 100px 100px 10px 100px;
+}
+
+
+.copyright{
+   display: flex;
+   align-items: center;
+   margin-left: 60px  ;
+}

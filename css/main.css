@@ -1,0 +1,12 @@
+body,
+body *{ 
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0A0119;
+    color: white;
+    font-family: "DM Sans";
+
+
+    
+}
